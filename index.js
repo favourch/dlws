@@ -1,4 +1,5 @@
 const express = require("express");
+const bodyParser = require('body-parser');
 const config = require("./config");
 const fetch = require("./fetch");
 const app = express();
