@@ -75,8 +75,8 @@ app.post(
   })
 );
 
-// app.get("/", (req, res) => {
-//   res.send("Server is running.");
-// });
+app.get("/", (req, res) => {
+  res.send("Server is running.");
+});
 
 app.listen(config.PORT, () => {});
