@@ -19,7 +19,7 @@ app.post(
     if (val === "" || (length === mark && txt[lessMark] === "0")) {
       deepLink = 1;
       mark++;
-      message = `WELCOME TO PADDI SEARCH
+      message = `WELCOME TO Digilearns WikiSearch
       Searching the internet made easy and available for every one \n
       Sponsored:
       Available ad space \n\n`;
@@ -58,8 +58,8 @@ app.post(
       }
     } else if (val === "2" || (length === mark && txt[lessMark] === "2")) {
       mark++;
-      message += `Visit our Facebook page @: promo-123456
-      For suggestion, complaints and sponsorships, send us a mail @: nomail@nomail.com \n
+      message += `Visit our website www.digilearns.ng \n
+      For suggestions, complaints and sponsorships, send us a mail @: team@digilearns.ng \n
       0 to main menu
       \n\n`;
       endSession = false;
