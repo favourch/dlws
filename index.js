@@ -19,10 +19,7 @@ app.post(
     if (val === "" || (length === mark && txt[lessMark] === "0")) {
       deepLink = 1;
       mark++;
-      message = `WELCOME TO Digilearns WikiSearch
-      Searching the internet made easy and available for every one \n
-      Sponsored:
-      Available ad space \n\n`;
+      message = `WELCOME TO WikiSearch by Digilearns`;
       message += `1: Quick search \n`;
       message += "2: Contact us \n\n";
       endSession = false;
